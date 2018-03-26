@@ -1,4 +1,4 @@
-FROM docker:17
+FROM docker:latest
 
 ARG compose_version=1.19.0
 
