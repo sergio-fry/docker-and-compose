@@ -1,0 +1,4 @@
+FROM docker:18.04.0-ce
+
+RUN apk add --no-cache py-pip
+RUN pip install 'docker-compose==1.23.2'
